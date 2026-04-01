@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv="refresh" content="30">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body style="background-color: aliceblue">
+    <h1 style="background-color: rgb(3, 3, 31); padding: 50px; color: white;">Create A New Account</h1>
+    <!--<label for="gsearch">Google Search:</label>
+    <input type="search" name="gsearch" id="gsearch">-->
+    <form action="/index.html" method="post" target="_parent" autocomplete="on" enctype="multipart/form-data" style="padding: 30px;">
+        <fieldset>
+            <legend>Personal Information </legend> <br>
+            <label for="fname">Firstname</label>
+            <input type="text" id="fname" name="fname" placeholder="Firstname" size="25" value="" autofocus><br><br>
+            <label for="lname">Lastname</label>
+            <input type="text" id="lname" name="lname" placeholder="lastname" size="25"><br><br>
+            <label for="mname"> Middlename:</label>
+            <input type="text" id="mname" name="mname" placeholder="Middlename" size="22"><br><br>
+            <label for="tcom">Phone Number</label>
+            <input type="tel" name="tcom" id="tcom" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="123-45-678"><br><br>
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time"><br><br>
+            <label for="bdate">Date Of Birth</label>
+            <input type="date" id="bdate" name="bdate" placeholder="DOB"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="email-address" autocomplete="on"><br><br>
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country" placeholder="Country" pattern="[A-Za-z]{3}" size="3"><br><br>
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="pwd" minlength="7" maxlength="35" placeholder="password" size="25"><br><br>
+            <label for="url">Linkedin Profile</label>
+            <input type="url" id="url" name="url"><br><br>
+            <input type="submit" name="Submit" id="submit" style="background-color: rgb(3, 3, 31); color: aliceblue;">
+            <input type="submit" id="submit" name="submit" value="Submit As An Admin" style="background-color: rgb(3, 3, 31); color: aliceblue;">
+            <input type="reset" name="reset" id="reset" style="background-color: rgb(3, 3, 31); color: aliceblue;">
+        </fieldset>
+
+    </form>
+
+<form action="/article.html" method="post" target="_self">
+    <fieldset>
+        <legend>Course of Interest: </legend>
+        <input type="radio" name="course" id="html" value="HTML">
+        <label for="html">HTML</label>
+        <input type="radio" name="course" id="css" value="CSS">
+        <label for="css">CSS</label>
+        <input type="radio" name="course" id="java" value="JAVA">
+        <label for="java">JAVA</label>
+        <input type="radio" name="course" id="JavaScript" value="JAVASCRIPT">
+        <label for="JavaScript">JAVASCRIPT</label>
+        <input type="radio" name="course" id="php" value="PHP">
+        <label for="php">PHP</label> 
+
+    </fieldset>
+
+</form>
+
+
+<form action="/table.html" method="get" target="_self" autocapitalize="on" style="padding: 5px;">
+    <fieldset>
+        <legend>Goal for Taking This Course:</legend>
+        <input type="checkbox" name="Build-skill" id="bs" value="Build-skill">
+        <label for="bs">Build-Skill</label>
+        <input type="checkbox" name="Upscale-skill" id="us" value="Upscale-skill">
+        <label for="us">Upscale-skill</label>
+        <input type="checkbox" name="Get-Job" id="GJ" value="Get-Job">
+        <label for="GJ">Get-Job</label>
+                    
+    </fieldset>
+
+</form>
+
+<!--<p>Learning about Select drop down menu</p>-->
+<form action="/age.html" target="_parent">
+    <label for="duration">Duration</label>
+    <select name="duration" id="duration">
+        <label for="Duration"> Duration</label>
+    <option value="">Choose Duration</option>
+    <option value="3 Months">3 Months</option>
+    <option value="6 Months">6 Months</option>
+    <option value="9 Months">9 Months</option>
+    <option value="12 Months">12 Months</option>
+    </select><br><br>
+
+    <!--This is not part of my project
+    <label for="file">A Recent Photograph:</label><br>
+    <input type="file" id="file" name="file"><br><br>
+    <label for="num">Quantity</label>
+    <input type="number" id="num" name="num" min="0" max="100" step="10" placeholder="Quantity"><br><br>
+    <label for="volume">Volume</label>
+    <input type="range" id="volume" name="volume" min="0" max="100" step="10">-->
+</form> <br>
+
+
+<textarea name="message" rows="10" cols="80" id="now" minlength="30" maxlength="300"> Brief Description About Yourself.</textarea><br>
+
+<!--<button type="button" onclick="alert('Hello World')">Click Me</button>-->
+<a href="/article.html"> <input type="submit" style="background-color: rgb(3, 3, 31); color: aliceblue;"></a> <br><br>
+
+<!--<video width="400" controls>
+    <source src="../../Videos/sodiq.mp4" type="video/mp4">
+
+</video>-->
+
+
+<footer>
+    <a href="Home">Home</a><br>
+    <a href="https://www.ajiboyeinioluwa575@gmail.com">Email Address</a> <br>
+    <a href="Contact">Contact</a><br>
+    <a href="/article.html">Service</a><br>
+</footer> 
+</body>
+</html>
