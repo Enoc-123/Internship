@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../fontawesome-free-7.1.0-web/css/all.min.css">
+<script  src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<title>Bootstrap 5</title>
+
+
+<style>
+    body{
+         font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .custom-gap{
+      gap: 220px;
+    html {
+      scroll-behavior: smooth; /* enables smooth scrolling */
+    }
+    nav .list-group-item {
+      cursor: pointer;
+    }
+    }
+</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-warning navbar-light fixed-top">
+  <div class="d-flex container-fluid">
+    <h1><a class="navbar-brand text-danger" href="work.html">ENOCH.</a></h1>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="work.html" target="_blank">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html" target="_blank">SERVICES</a></li>
+        <li class="nav-item"><a class="nav-link" href="dashboard.html" target="_blank">DASHBOARD</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html" target="_blank">CONTACT</a></li>    
+      </ul>
+    </div>
+  </div>
+</nav><br><br><br>
+
+<nav class="d-flex jusify-content-between navbar navbar-expand-sm bg-light navbar-light">
+  <div class="container-fluid text-dark">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="track.html" target="_blank">Track</a></li>
+        <li class="nav-item"><a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasShip" role="button">Ship</a></li>
+        <li class="nav-item"><a class="nav-link" href="customer.html" target="_blank">Customer service</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Customer portal login</a>
+        </li>    
+      </ul>
+
+  </div>
+</nav>
+<div class="offcanvas offcanvas-left shadow-lg" id="offcanvasShip">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Ship a Package</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+    <!-- Put your shipment form or content here-->
+    <form>
+        <div class="m-1 p-3">
+            <label class="form-label">Sender</label>
+            <input type="text" class="form-control" placeholder="Sender name" required>
+        </div>
+        <div class="m-1 p-3">
+            <label class="form-label">Receiver</label>
+            <input type="text" class="form-control" placeholder="Receiver name" required>
+        </div>
+        <div class="m-1 p-3">
+            <label class="form-label">Origin</label>
+            <input type="text" class="form-control" placeholder="Origin city" required>
+        </div>
+        <div class="m-1 p-3">
+            <label class="form-label">Destination</label>
+            <input type="text" class="form-control" placeholder="Destination city">
+        </div>
+        <input class="bg-primary w-60 m-4 text-light" type="submit" value="Submit">
+        <!--button type="submit" class="btn btn-primary">Submit Shipment</button>-->
+    </form>
+    </div>
+</div>
+
+<div class="container ms-3">
+    <h2 style="font-size: 40px;"><b>Fraud Awareness</b></h2>
+    <p style="font-size: 24px;">
+        Thank you for joining our effort to combat online fraud. ENOCH goes to great lengths to protect our customers
+        from fraud. If you suspect having received fraudulent emails, SMS or found a website or social media account 
+        that tries to pass off as ENOCH, we encourage you to let us know at your earliest convenience, so that we can 
+        quickly take actions to stop the fraud. <br><br>
+        Please report all suspicious activity to our dedicated Anti-Abuse Mailbox at <a href="mailto:phishing@enoch.com" target="_blank">phishing@enoch.com</a> following 
+        the below instructions. <br><br>
+        We thoroughly investigate every report of suspected fraud, but generally, will not respond to personal inquiries. If you have questions regarding the status of a shipment or an invoice, please direct those to our <a href="customer.html" target="_blank">customer support</a>.
+    </p>
+  <div class="row">
+    <!-- Sidebar Navigation -->
+    <nav class="col-md-3">
+      <div class="list-group position-sticky" style="top: 80px;">
+        <a class="list-group-item list-group-item-action" href="#fraud-email">✉️ Fraudulent Email</a>
+        <a class="list-group-item list-group-item-action" href="#fraud-sms">📱 Fraudulent SMS</a>
+        <a class="list-group-item list-group-item-action" href="#fraud-social">🌐 Fraudulent Social Media (incl. WhatsApp)</a>
+        <a class="list-group-item list-group-item-action" href="#fraud-enoch">🔒 Hacked ENOCH Accounts</a>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="col-md-9">
+    
+
+      <!-- Fraudulent Email -->
+      <section id="fraud-email" class="card shadow-sm mb-4">
+        <div class="card-header bg-danger text-white">
+          <h3 class="mb-0">Fraudulent Email</h3>
+        </div>
+        <div class="card-body">
+          <ul>
+            <li>Official communication only from <strong>@yourdomain.com</strong> or approved subdomains.</li>
+            <li>We never use free email services like Gmail or Yahoo.</li>
+            <li>Watch for urgent tone, grammar mistakes, strange links, or unexpected attachments.</li>
+            <li>Links only point to our official websites.</li>
+          </ul>
+          <p><strong>What to do:</strong> Forward suspicious emails as attachments to <a href="mailto:phishing@enoch.com">phishing@enoch.com</a>.</p>
+        </div>
+      </section>
+
+      <!-- Fraudulent SMS -->
+      <section id="fraud-sms" class="card shadow-sm mb-4">
+        <div class="card-header bg-warning text-dark">
+          <h3 class="mb-0">Fraudulent SMS</h3>
+        </div>
+        <div class="card-body">
+          <ul>
+            <li>We never request personal or payment details via SMS.</li>
+            <li>Suspicious SMS often contain shortened or unfamiliar links.</li>
+            <li>Messages may use urgent language like “Act now!”</li>
+          </ul>
+          <p><strong>What to do:</strong> Do not click links or reply. Report to <a href="mailto:phishing@enoch.com">phishing@enoch.com</a> and mark as spam.</p>
+        </div>
+      </section>
+
+      <!-- Fraudulent Social Media -->
+      <section id="fraud-social" class="card shadow-sm mb-4">
+        <div class="card-header bg-info text-white">
+          <h3 class="mb-0">Fraudulent Social Media Accounts (incl. WhatsApp)</h3>
+        </div>
+        <div class="card-body">
+          <ul>
+            <li>Our official accounts are verified and display our brand logo.</li>
+            <li>We never ask for sensitive info via WhatsApp, Facebook, Instagram, etc.</li>
+            <li>Fake accounts often use misspellings or unusual handles.</li>
+          </ul>
+          <p><strong>What to do:</strong> Report suspicious accounts on the platform and notify us at <a href="mailto:phishing@enoch.com">phishing@enoch.com</a>.</p>
+        </div>
+      </section>
+
+      <!-- Hacked ENOCH Accounts -->
+      <section id="fraud-enoch" class="card shadow-sm mb-4">
+        <div class="card-header bg-secondary text-white">
+          <h3 class="mb-0">Hacked ENOCH Accounts</h3>
+        </div>
+        <div class="card-body">
+          <ul>
+            <li>Change your password immediately.</li>
+            <li>Enable two-factor authentication (2FA).</li>
+            <li>Check account activity for unauthorized logins.</li>
+          </ul>
+          <p><strong>What to do:</strong> Contact support at <a href="mailto:support@enoch.com">support@enoch.com</a> to secure your account.</p>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</div><br><br>
+
+<div class="container ms-3">
+    <h2 style="font-size: 40px;"><b>Fraudulent Use of the ENOCH Brand</b></h2>
+    <p style="font-size: 24px;">
+        Attempts have been made to defraud Internet shoppers by the unauthorized use of the ENOCH name and brand
+        via email communications and graphics which appear, on the surface, to have originated from ENOCH. <br><br>
+        In most cases the communications concern the sale of consumer goods over the Internet where payment may 
+        be requested before the goods are delivered. <br><br>
+        The only payments ENOCH requests via email or SMS are for customs duties and taxes. This process includes a 
+        safety measure where an OTP is sent to the consignee’s registered contact before processing the payment. <br><br>
+        This security notice does not affect the obligation of a consignee to pay shipping, customs, VAT or similar 
+        charges, where these are properly payable at the time of delivery. <br><br>
+        ENOCH accepts no responsibility for any costs, charges or payments made which were improperly incurred as a
+        result of fraudulent activity.
+    </p>
+
+</div><br><br>
+
+<footer class="bg-light pt-5">
+  <div class="container">
+    <div class="row">
+      <!-- Quick Links -->
+      <div class="col-md-4 col-sm-12 mb-4">
+        <h5 class="text-danger fw-bold">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-dark text-decoration-none">Customer Service</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Customer Portal Logins</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Developer Portal</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Get a Quote</a></li>
+          <li><a href="business.html" class="text-dark text-decoration-none">ENOCH for Business</a></li>
+        </ul>
+      </div>
+
+      <!-- Our Divisions -->
+      <div class="col-md-4 col-sm-12 mb-4">
+        <h5 class="fw-bold">Our Divisions</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-dark text-decoration-none">ENOCH Express</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">ENOCH Global Forwarding</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Other Global Divisions</a></li>
+        </ul>
+      </div>
+
+      <!-- Company Information -->
+      <div class="col-md-4 col-sm-12 mb-4">
+        <h5 class="fw-bold">Company Information</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-dark text-decoration-none">About ENOCH</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Delivered</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Careers</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Press Center</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Investors</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Sustainability</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Brand Partnerships</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <hr>
+
+    <!-- Bottom Section -->
+    <div class="row align-items-center">
+      <div class="col-md-6 col-sm-12 mb-3 mb-md-0">
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item"><a href="#" class="text-secondary small">Fraud Awareness</a></li>
+          <li class="list-inline-item"><a href="#" class="text-secondary small">Legal Notice</a></li>
+          <li class="list-inline-item"><a href="#" class="text-secondary small">Terms of Use</a></li>
+          <li class="list-inline-item"><a href="#" class="text-secondary small">Privacy Notice</a></li>
+          <li class="list-inline-item"><a href="#" class="text-secondary small">Additional Information</a></li>
+          <li class="list-inline-item"><a href="#" class="text-secondary small">Cookie Settings</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="col-md-6 col-sm-12 text-md-end text-center">
+        <a href="https://www.youtube.com/@ajiboyeinioluwa?si=gSbbWX28CM-ikoj" target="_blank" class="text-secondary me-3"><i class="fab fa-youtube fa-lg"></i></a>
+        <a href="https://www.facebook.com/oluwaseyi.olawale.796" target="_blank" class="text-secondary me-3"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="https://www.linkedin.com/in/ajiboye-inioluwa-2788872aO?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="text-secondary me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="https://www.instagram.com/oluwaseyi.olawale.796" target="_blank" class="text-secondary"><i class="fab fa-instagram fa-lg"></i></a>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center pt-4">
+      <p class="mb-0 text-secondary small">© 2026 ENOCH Logistics - All rights reserved</p>
+    </div>
+  </div>
+</footer>
+
+
+</body>

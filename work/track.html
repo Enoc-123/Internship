@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../fontawesome-free-7.1.0-web/css/all.min.css">
+<script  src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<title>Bootstrap 5</title>
+
+
+<style>
+    body{
+         font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .custom-gap{
+      gap: 220px;
+    }
+</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-warning navbar-light fixed-top">
+  <div class="d-flex container-fluid">
+    <h1><a class="navbar-brand text-danger" href="work.html">ENOCH.</a></h1>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="work.html" target="_blank">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html" target="_blank">SERVICES</a></li>
+        <li class="nav-item"><a class="nav-link" href="dashboard.html" target="_blank">DASHBOARD</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html" target="_blank">CONTACT</a></li>    
+      </ul>
+    </div>
+  </div>
+</nav><br><br><br>
+
+<nav class="d-flex jusify-content-between navbar navbar-expand-sm bg-light navbar-light">
+  <div class="container-fluid text-dark">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="track.html" target="_blank">Track</a></li>
+        <li class="nav-item"><a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasShip" role="button">Ship</a></li>
+        <li class="nav-item"><a class="nav-link" href="customer.html" target="_blank">Customer service</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Customer portal login</a>
+        </li>    
+      </ul>
+
+  </div>
+</nav>
+<div class="offcanvas offcanvas-left shadow-lg" id="offcanvasShip">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Ship a Package</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+    <!-- Put your shipment form or content here-->
+    <form>
+        <div class="m-1 p-3">
+            <label class="form-label">Sender</label>
+            <input type="text" class="form-control" placeholder="Sender name" required>
+        </div>
+        <div class="m-1 p-3">
+            <label class="form-label">Receiver</label>
+            <input type="text" class="form-control" placeholder="Receiver name" required>
+        </div>
+        <div class="m-1 p-3">
+            <label class="form-label">Origin</label>
+            <input type="text" class="form-control" placeholder="Origin city" required>
+        </div>
+        <div class="m-1 p-3">
+            <label class="form-label">Destination</label>
+            <input type="text" class="form-control" placeholder="Destination city">
+        </div>
+        <input class="bg-primary w-60 m-4 text-light" type="submit" value="Submit">
+        <!--button type="submit" class="btn btn-primary">Submit Shipment</button>-->
+    </form>
+    </div>
+</div>
+
+<div ><h1 style="font-weight: bolder; font-size: 50px; margin: 40px;">Track & Trace</h1></div>
+
+<div class="container-fluid bg-light" style="height: 120px;"><br>
+    <form action="www.you"method="post" style="width: 400px; margin-left: 24px;">
+      <input type="text" class="form-control" id="track" placeholder="Enter tracking number(s)" required style="width: 600px; height: 60px; border: 1px solid black;">
+      <button type="submit" class="btn btn-danger rounded" style="margin-top: -66px; margin-left:494px; width: 100px; height: 52px; margin-top: -85px;">Track</button>
+    </form>
+</div>
+
+
+<div container mt-3>
+  <h1  style="font-weight: bolder; font-size: 30px; margin: 40px;">Frequently Asked Questions</h1>
+
+
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#trackno">What is a Tracking No and where can I find It?</a></div>
+      <div id="trackno" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          <h2  style="font-weight: bolder; font-size: 30px; margin: 40px;"></h2>
+          <p style="margin-top: -50px;">
+            A tracking number or ID is a combination of numbers and possibly letters that uniquely identifies your shipment for national or
+            international tracking. <br>
+
+            Usually, the shipper or online shop is able to provide the tracking number or ID. If you have ordered a product in an online shop, the
+            confirmation email or shipment tracking notification often contains the tracking number or ID. If not, please contact your shipper or online shop.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#trackno2">Will My Tracking Information Appear?</a></div>
+      <div id="trackno2" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          <h2  style="font-weight: bolder; font-size: 30px; margin: 40px;"></h2>
+          <p style="margin-top: -50px;">
+            Tracking events usually appear 24-48 hours after receiving the Track and Trace ID. In general, once the shipment has reached our 
+            facility, a tracking event will appear.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#trackno3">Why Is My Tracking number/ID not working?</a></div>
+      <div id="trackno3" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          <h2  style="font-weight: bolder; font-size: 30px; margin: 40px;"></h2>
+          <p style="margin-top: -50px;">
+            Please make sure you entered the correct tracking number in the correct format: Check for minimum length of 5 characters, and if there
+            are any special characters in your input. Tab, comma, space and semicolon are understood as separators between several tracking IDs.
+
+            If your tracking ID is not working, please contact your shipper or online shop.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header"><a class="btn" data-bs-toggle="collapse" href="#trackno4">If I do not have my tracking number, is it still possible to track my shipment?</a></div>
+      <div id="trackno4" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          <h2  style="font-weight: bolder; font-size: 30px; margin: 40px;"></h2>
+          <p style="margin-top: -50px;">
+            If you do not have a tracking number, we advise you to contact your shipper. However, if you have other shipping reference numbers,
+            they may work using shipment tracking systems of the specific business unit in charge of the shipment (for example: ENOCH Express or
+            ENOCH Freight). <br>
+            <a href="contact.html" target="_blank" style="text-decoration: double 2px solid red; color: red;">Find your contact here</a> 
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div><br><br>
+
+<div class="row ms-2 g-5 custom-gap">
+  
+  <div class="col sm-8 me-5">
+   <h3 style="font-weight: bolder; font-size: 25px;">Stop Tracking the Box. Start Tracking Your Future.</h3> 
+   <p>
+    Your career deserves a fast route, too. <br><br>
+    Explore open roles (IT, Logistics, Driving, and more) with stability and clear paths for advancement. <br><br>
+
+    Don't wait for your next step - build it!
+   </p> 
+   <button class="btn btn-danger rounded text-white hover">Unbox Your Potential</button>
+  </div>
+
+<div class="col sm-4">
+      <img src="../harbor.jpg" alt="harbor" width="400px" height="auto">
+  </div>
+
+</div><br><br><hr>
+
+
+<footer class="bg-light pt-5">
+  <div class="container">
+    <div class="row">
+      <!-- Quick Links -->
+      <div class="col-md-4 col-sm-12 mb-4">
+        <h5 class="text-danger fw-bold">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-dark text-decoration-none">Customer Service</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Customer Portal Logins</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Developer Portal</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Get a Quote</a></li>
+          <li><a href="business.html" class="text-dark text-decoration-none">ENOCH for Business</a></li>
+        </ul>
+      </div>
+
+      <!-- Our Divisions -->
+      <div class="col-md-4 col-sm-12 mb-4">
+        <h5 class="fw-bold">Our Divisions</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-dark text-decoration-none">ENOCH Express</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">ENOCH Global Forwarding</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Other Global Divisions</a></li>
+        </ul>
+      </div>
+
+      <!-- Company Information -->
+      <div class="col-md-4 col-sm-12 mb-4">
+        <h5 class="fw-bold">Company Information</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-dark text-decoration-none">About ENOCH</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Delivered</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Careers</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Press Center</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Investors</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Sustainability</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Brand Partnerships</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <hr>
+
+    <!-- Bottom Section -->
+    <div class="row align-items-center">
+      <div class="col-md-6 col-sm-12 mb-3 mb-md-0">
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item"><a href="#" class="text-secondary small">Fraud Awareness</a></li>
+          <li class="list-inline-item"><a href="#" class="text-secondary small">Legal Notice</a></li>
+          <li class="list-inline-item"><a href="#" class="text-secondary small">Terms of Use</a></li>
+          <li class="list-inline-item"><a href="#" class="text-secondary small">Privacy Notice</a></li>
+          <li class="list-inline-item"><a href="#" class="text-secondary small">Additional Information</a></li>
+          <li class="list-inline-item"><a href="#" class="text-secondary small">Cookie Settings</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="col-md-6 col-sm-12 text-md-end text-center">
+        <a href="https://www.youtube.com/@ajiboyeinioluwa?si=gSbbWX28CM-ikoj" target="_blank" class="text-secondary me-3"><i class="fab fa-youtube fa-lg"></i></a>
+        <a href="https://www.facebook.com/oluwaseyi.olawale.796" target="_blank" class="text-secondary me-3"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="https://www.linkedin.com/in/ajiboye-inioluwa-2788872aO?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="text-secondary me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="https://www.instagram.com/oluwaseyi.olawale.796" target="_blank" class="text-secondary"><i class="fab fa-instagram fa-lg"></i></a>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center pt-4">
+      <p class="mb-0 text-secondary small">© 2026 ENOCH Logistics - All rights reserved</p>
+    </div>
+  </div>
+</footer>
+
+</body>
