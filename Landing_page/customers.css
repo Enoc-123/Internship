@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+ul{
+    list-style-type: none;
+    font-size: 20px;
+    background-color: orangered;
+    position: fixed;
+}
+span{
+    color: white;
+    font-size: 20px;
+}
+span:hover{
+    color: black;
+}
+ul a{
+    text-decoration: none;
+}
+
+.nav{
+    margin-top: -8px;
+    display: block;
+    float: left;
+    margin-left: 0px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li{
+    display: inline;
+    margin: 5px;
+    padding: 20px;
+    cursor: pointer;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    color: black;
+}
+
+button.pricing{
+    color: orangered;
+    width: 80px;
+    height: 25px;
+    background-color: rgb(252, 243, 239);
+    cursor: pointer;
+    border-radius: 50px 50px;
+    border: 0px;
+}
+
+/*button.pricing:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}*/
+button.down{
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    cursor: pointer;
+    width: 80px;
+    height: 25px;
+    border-radius: 50px 50px;
+    border: 0px;
+}
+
+button.down:hover{
+    background-color: white;
+    color: orangered;
+}
+
+div.mov{
+    float: right;
+    margin-top: 1px;
+    padding-right: 150px;
+}
+div.main{
+    background-image: url(../image/c10.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+    width: 100%;
+    height: 550px;
+    padding-left: -400px;
+    position: inherit;
+}
+
+body{
+    background-color: rgb(238, 218, 211);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+section h1{
+    text-align:center ;
+    margin: 8px;
+    padding-top: 150px;
+    color: white;
+}
+span.hero{
+    margin: 16px;
+    padding-left: 100px;
+    width: 200px;
+}
+
+span.hero:hover{
+    font-size: 20px;
+    color: white;
+}
+
+section button.partner{
+    background-color: orangered;
+    color: white;
+    border-radius: 50px 50px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+section button.partner a{
+    text-decoration: none;
+    color: white;
+}
+
+button.partner{
+    margin-left: 550px;
+    margin-top: 16px;
+}
+button.partner:hover{
+    background-color: white;
+    color: orangered;
+}
+
+button.partner a:hover{
+    color: orangered;
+}
+h2{
+    text-align: center;
+}
+
+div.featured{
+    display: inline;
+}
+
+div.two{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    float: left;
+    padding-right: 95px;
+    margin: 50px;
+    padding: 20px;
+    margin-top: -24px;
+}
+
+div.two img{
+    border: 8px double orangered;
+    border-radius: 50px 50px;
+}
+
+div.two img:hover{
+    width: 170px;
+    height: 110px;
+    cursor: pointer;
+}
+
+.two span.cate{
+    width: 150px;
+    margin-top: -32px;
+    color: black;
+}
+
+
+div.two h3{
+    color: black;
+    margin-top: -20px;
+    width: 150px;
+}
+
+div.feature{
+    display: inline;
+}
+
+div.feature aside{
+    width: 260px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin: 90px;
+    margin-top: -24px;
+}
+
+aside.say{
+    background-color: orangered;
+    width: 600px;
+    height: 100px;
+    color: white;
+    outline: 6px dotted black;
+}
+
+footer p.foot{
+    padding-left: 450px;
+    margin: 1px;
+    margin-top: -10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 6px;
+    width: 100%;
+    background-color: rgb(20, 7, 2);
+    color: white;
+}
+
+div.last{
+    margin: 16px;
+    padding-left: 450px;
+}
+div.last button.contact{
+    width: 150px;
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px 50px;
+}
+
+div.last button.contact:hover{
+    background-color: white;
+    color: orangered;
+}
+
+div.last button.request{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(20, 7, 2);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px 50px;
+}
+
+div.last button.request:hover{
+    background-color: white;
+    color: rgb(20, 7, 2);
+}
+h5{
+    text-align: center;
+}
+
+div.last .back a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+div.last .back a:hover{
+    color: orangered;
+}
+div.last .back a::after{
+    color: black;
+}
