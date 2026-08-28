@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../fontawesome-free-7.1.0-web/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<title>Bootstrap 5 Test</title>
+</head>
+<body>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<div class="offcanvas offcanvas-end text-bg-dark" id="demo"><!--offcanvas-end -start -top -bottom-->
+    <div class="offcanvas-header">
+        <h1 class="offcanvas-title">Heading</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+
+    <div class="offcanvas-body">
+        <p>Creating a new offcanvas</p>
+        <p>Just creating one now man 😎😊👌✌️</p>
+        <p>God is a Great God</p>
+        <button class="btn btn-secondary" type="button">Offcanvas</button>
+    </div>
+
+</div>
+
+
+<div class="container mt-3">
+    <ul class="nav nav-pills nav-justified"><!--nav-tabs but it should be in the ul class-->
+        <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">About Us</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><a class="dropdown-item" href="#">Email Address</a></li>
+                <li><a class="dropdown-item" href="#">Support</a></li>
+            </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+    </ul><br>
+    <h1>h1 Bootstrap <small>heading(36px)</small></h1>
+    <h2>h2 Bootstrap <small>heading(30px)</small> </h2>
+    <h3>h3 Bootstrap <small>heading(24px)</small> </h3>
+    <h4>h4 bootstrap <small>heading(18px)</small> </h4>
+    <h5>h5 bootstrap <small>heading(14px</small> :)</h5>
+    <h6>h6 bootstrap <kbd>ctrl + p</kbd> <small>heading(12px)</small></h6>
+    <p class="text-danger">Man This is me Starting Bootstrap Tutorial</p>
+    <p class="text-bg-info">We are outside</p>
+
+    <!--text-muted, text-primary, text- success, text-info, text-warning, text-danger-->
+    <!-- bg-primary, bg- success, bg-info, bg-warning, bg-danger-->
+
+    <table class="table table-dark table-striped table-borderless">
+        <thead>
+            <tr>
+                <th>First-Name</th>
+                <th>Lastname</th>
+                <th>Email Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>            
+            <td>Ogbonanya</td>
+            <td>Chinedu</td>
+            <td>chinedu234@gmail.com </td>
+        </tr>
+
+        <tr>
+            <td>Sunday</td>
+            <td>Mark</td>
+            <td>marksun123@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>Opeyemi</td>
+            <td>Mctharty</td>
+            <td>opemcth324@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>Godswill</td>
+            <td>Krypton</td>
+            <td>krypwill543@gmail.com</td>
+        </tr>
+        </tbody>
+    </table>
+
+   <!--<div>
+        <img src="../img_mountains.jpg" class="float-start rounded-circle" width="250px" alt="try">
+        <img src="../img_forest.jpg" class="float-end rounded-circle" width="250px" alt="try">
+    </div>-->
+
+
+    <div class="alert alert-danger alert-dismissible fade show">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Finally!</strong> You made it to the final year. <a href="#" class="alert-link">read this message</a>
+    </div>
+    <div class="alert alert-dark alert-dismissible fade show">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    <strong>Dark!</strong> Dark grey alert. <a href="#" class="alert-link">read this message</a>
+  </div>
+
+  <div class="alert alert-secondary alert-dismissible fade show">
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    <strong>INI!</strong>You have made it, just matter of time. <a href="#" class="alert-link">read this message</a>
+  </div>
+
+  <div class="alert alert-warning alert-dismissible fade show">
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    <strong>Beloved</strong> Be strong in the Lord and in His power. <a href="#" class="alert-link">read this message</a>
+  </div>
+
+  <div class="alert alert-info alert-dismissible fade show">
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    <strong>Strength</strong>The Lord is my Strength <a href="#" class="alert-link">read this message</a>
+  </div> 
+
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Tablet</a>
+            <a class="dropdown-item" href="#">Smartphone</a>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-primary">Message <span class="badge bg-danger">4</span></button>
+    <button type="button" class="btn btn-danger">Phone <span class="badge bg-dark">7</span></button>
+  </div><br><br>
+
+
+  <div class="progress" style="width: 30%; height: 20px;">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 80%; height: 30px;">80%</div>
+  </div><br>
+
+  <div class="progress" style="width: 30%; height: 20px;">
+    <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" style="width: 50%; height: 30px;">50%</div>
+  </div><br>
+
+  <div class="progress" style="width: 30%; height: 20px;">
+    <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated" style="width: 60%; height: 30px;">60%</div>
+  </div><br>
+
+  <div class="spinner-grow text-muted spinner-grow-sm"></div>
+  <div class="spinner-grow text-primary spinner-grow-sm"></div>
+  <div class="spinner-grow text-warning spinner-grow-sm"></div>
+  <div class="spinner-border text-success spinner-border-sm"></div>
+  <div class="spinner-border text-info spinner-border-sm"></div>
+  <div class="spinner-border text-danger spinner-border-sm"></div>
+  <div class="spinner-border text-secondary spinner-border-sm"></div>
+
+
+
+  <ul class="pagination pagination-lg justify-content-center">
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+  </ul><br>
+
+  <h4>List Group with linked-Items</h4>
+  <div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action list-group-item-success">Success Item<span class="badge bg-dark rounded-pill">24</span></a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Primary-Item <span class="badge bg-success rounded-pill">16</span></a>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Warning Item <span class="badge bg-danger rounded-pill">30</span></a>
+  </div><br>
+
+  <ul class="list-group list-group-horizontal">
+    <li class="list-group-item active">Item</li>
+    <li class="list-group-item">First item <span class="badge bg-danger rounded-pill">11</span></li>
+    <li class="list-group-item">Second item <span class="badge bg-warning rounded-pill">23</span></li>
+    <li class="list-group-item">Third item<span class="badge bg-info rounded-pill">32</span> </li>
+  </ul><br>
+
+
+  <ul class="list-group">
+    <li class="list-group-item d-flex justify-content-between align-items-center">First item <span class="badge bg-dark rounded-pill">20</span></li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">Second item <span class="badge bg-danger rounded-pill">11</span></li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">Third item <span class="badge bg-warning rounded-pill">23</span></li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">Fourth item<span class="badge bg-info rounded-pill">32</span> </li>
+  </ul><br>
+
+  <div class="card">
+    <div class="card-header">Header</div>
+    <div class="card-body">Basic Card</div>
+    <div class="card-footer">
+        <h2 class="card-title">Card Title</h2>
+        <p class="card-text">some example text. some example text</p>
+        <a class="card-link" href="#">Card Link</a>
+        <a href="#" class="card-link">Another Link</a>
+    </div>
+  </div><br>
+
+    <div class="card" style="width: 400px;">
+        <img class="card-img-top" src="image/mine.png" alt="Card Image" style="width: 100%;">
+        <div class="card-body">
+            <h4 class="card-title">Inioluwa Enoch A.</h4>
+            <p class="card-text">Enoch is a Brand Designer, and also a Web Developer</p>
+            <a class="btn btn-warning" href="#">See Profile</a>
+        </div>
+
+    </div><br><br>
+
+
+    <div class="card" style="width: 400px;">
+        <div class="card-body">
+            <h4 class="card-title">Inioluwa Enoch A.</h4>
+            <p class="card-text">Enoch is a Brand Designer, and also a Web Developer</p>
+            <a class="btn btn-primary" href="#">See Profile</a>
+        </div>
+        <img class="card-img-bottom" src="image/mine.png" alt="Card Image" style="width: 100%;">
+
+    </div><br><br>
+
+    <div class="card" style="width: 400px;">
+        <img class="card-img-top" src="image/mine.png" alt="Card Image" style="width: 100%;">
+        <div class="card-img-overlay text-secondary">
+            <h4 class="card-title">Inioluwa Enoch A.</h4>
+            <p class="card-text">Enoch is a Brand Designer, and also a Web Developer</p>
+            <a class="btn btn-warning" href="#">See Profile</a>
+        </div>
+
+    </div><br><br>
+
+
+
+    <div class="dropdown dropend">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown Button</button>
+        <ul class="dropdown-menu">
+            <li><h5 class="dropdown-header">Dropdown Header 1</h5></li>
+            <li><a class="dropdown-item" href="#">Mazda</a></li>
+            <li><a class="dropdown-item" href="#">Toyota</a></li>
+            <li><a class="dropdown-item" href="#">Lamborghini</a></li>
+            <li><a class="dropdown-item" href="#">Ferrari</a></li>
+            <li><h5 class="dropdown-header">Choose your Category</h5></li>
+            <li><a href="#" class="dropdown-item">The Rich</a></li>
+            <li><a class="dropdown-item" href="#">The Wealthy</a></li>
+            <li><a class="dropdown-item" href="#">The Flourishing</a></li>
+            <li><a class="dropdown-item" href="#">The Managing</a></li>
+        </ul>
+
+    </div><br>
+
+    <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple Collapsible</button>
+    <div id="demo" class="collapse show">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Deleniti corrupti iste excepturi. Iste, provident mollitia
+        alias sint consectetur soluta ab, distinctio ipsa rem ut 
+        magni, dolorem incidunt culpa voluptatum. Vitae!
+    </div><br><br>
+
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <a class="btn" data-bs-toggle="collapse" href="#collapseone">Collapse group item1</a>
+            </div>
+            <div id="collapseone" class="collapse show" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     At saepe, recusandae maxime aspernatur in, illo perspiciatis 
+                     fugiat magni, doloremque nesciunt quibusdam obcaecati sit 
+                     sequi corrupti porro corporis eaque necessitatibus perferendis.
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapsetwo">Collapse Group item 2</a>
+            </div>
+            <div id="collapsetwo" class="collapse show" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Excepturi itaque autem consectetur, atque harum, quidem 
+                     fuga maiores alias sint eos, accusamus deleniti iure 
+                     veniam asperiores tempore recusandae dicta officiis facilis?
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapsethree">Collapse Group Item #3</a>
+            </div>
+
+            <div id="collapsethree" class="collapse show" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                     Ab sit, ut excepturi minus totam quibusdam, maiores illo 
+                     earum, eligendi aut neque ad dignissimos voluptates tempora
+                      qui pariatur debitis veritatis fugit.
+                </div>
+            </div>
+        </div>
+
+        
+    </div><br>
+
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">Open Offcanvas</button><br><br>
+
+    <div class="d-flex flex-column-reverse p-3 bg-danger text-white">
+            <div class="p-2 bg-info">Flex-Item 1</div>
+            <div class="p-2 bg-warning">Flex-Item 2</div>
+            <div class="p-3 bg-primary">Flex-Item 3</div>
+    </div><br>
+
+    <div class="d-flex mb-3">
+        <div class="p-2 flex-fill bg-info">Man</div>
+        <div class="p-2 flex-fill bg-warning">Woman</div>
+        <div class="p-2 flex-fill bg-secondary">Boy</div>
+
+    </div>
+
+    <div class="d-flex flex-wrap bg-warning">
+        <div class="p-2 border">Flex item 1</div>
+        <div class="p-2 border">Flex item 2</div>
+        <div class="p-2 border">Flex item 3</div>
+        <div class="p-2 border">Flex item 4</div>
+        <div class="p-2 border">Flex item 5</div>
+        <div class="p-2 border">Flex item 6</div>
+        <div class="p-2 border">Flex item 7</div>
+        <div class="p-2 border">Flex item 8</div>
+        <div class="p-2 border">Flex item 9</div>
+        <div class="p-2 border">Flex item 10</div>
+        <div class="p-2 border">Flex item 11</div>
+        <div class="p-2 border">Flex item 12</div>
+        <div class="p-2 border">Flex item 13</div>
+        <div class="p-2 border">Flex item 14</div>
+        <div class="p-2 border">Flex item 15</div>
+        <div class="p-2 border">Flex item 16</div>
+        <div class="p-2 border">Flex item 17</div>
+        <div class="p-2 border">Flex item 18</div>
+        <div class="p-2 border">Flex item 19</div>
+        <div class="p-2 border">Flex item 20</div>
+        <div class="p-2 border">Flex item 21</div>
+        <div class="p-2 border">Flex item 22</div>
+        <div class="p-2 border">Flex item 23</div>
+        <div class="p-2 border">Flex item 24</div>
+        <div class="p-2 border">Flex item 25</div>
+    </div>
+
+
+
+</div>
+</body>
+</html>

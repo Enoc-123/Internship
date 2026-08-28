@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+div.nav{
+    display: inline-block;
+    margin: 8px;
+    background-color: rgb(43, 41, 41);
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.main{
+    color: rgb(17, 22, 48);
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin: 5px 15px;
+    padding: 25px;
+    position: relative;
+}
+
+.content{
+    margin: 8px;
+    padding: 20px;
+    color: rgb(43, 41, 41);
+    overflow: auto;
+}
+.content p{
+    margin: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.row2{
+    float: left;
+    display: inline;
+    padding: 5px 20px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.row{
+    display: block;
+    background-color: rgb(136, 134, 134);
+}
+
+.pic{
+    float: right;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+button.get{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(216, 211, 211);
+    border-radius: 8px;
+    font-size: 13px;
+    border-color: 8px solid green;
+}
+
+button.get:hover{
+    background-color: antiquewhite;
+    color: white;
+    cursor: pointer;
+}
+
+.nav a:hover{
+    color: antiquewhite;
+    cursor: pointer;    
+}
+
+.list{
+    padding: 50px;
+    font-size: 40px;
+    margin: -200px 320px 200px 500px;
+    float: left;
+    margin-top: -850px;
+    width: 400px;
+}*/
+
+.ul li{
+    list-style-type: square;
+    padding: 0;
+}
+.row-1{
+    background-color: black;
+}

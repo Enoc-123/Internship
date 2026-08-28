@@ -1,0 +1,139 @@
+ul{
+    background-color: orangered;
+    color: white;
+    display: block;
+    height: 50px;
+}
+
+.head li{
+    list-style: none;
+    display: inline;
+    margin-right: 80px;
+    margin-left: 60px;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    color: rgb(226, 226, 243);
+}
+
+div.post{
+    margin-left: 30px;
+    display: block;
+    background-color: orangered;
+    width: 55%;
+    height: 40px;
+}
+
+div.one{
+    background-color: rgb(238, 218, 211);
+    width: 100%;
+    height: 160px;
+    clear: both;
+    display: table;
+    content: "";
+    color: orangered;
+}
+
+.one img{
+    float: left;
+}
+
+div.big-content{
+    margin-top: 150px;
+    margin-left: 30px;
+    display: block;
+    background-color: orangered;
+    width: 55%;
+    height: 40px;
+}
+
+div.two{
+    background-color: rgb(238, 218, 211);
+    width: 45%;
+    height: 150px;
+    clear: both;
+    display: table;
+    content: "";
+    color: orangered;
+    float: left;
+}
+
+div.three{
+    float: right;
+    margin-left: 0px;
+    margin-top: -175px;
+    margin-right: -1px;
+    background-color: rgb(238, 218, 211);
+    width: 53%;
+    height: 175px;
+    clear: both;
+    display: table;
+    content: "";
+    color: orangered;
+}
+
+div.three.member{
+    margin-right: 6px;
+    float: right;
+    margin-top: -1300px;
+}
+
+div .side-bar-right{
+    width: 40%;
+    display: inline;
+    float: right;
+    background-color: orangered;
+    height: 170px;
+    margin: 16px;
+}
+
+.side-bar-right{
+    margin-right: 20px;
+    margin-top: -500px;
+    float: right;
+
+}
+div.about{
+    clear: both;
+    display: table;
+    content: "";
+    display: block;
+    color: rgb(226, 226, 243) ;
+    background-color: orangered;
+    width: 400px;
+    height: 115px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+div.about img{
+    float: left;
+    margin-top: -50px;
+    border-radius: 75px 75px;
+}
+
+div.about p{
+    font-size: 20px;
+    margin: 16px;
+    margin-left: 16px;
+}
+
+i{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.fa-facebook{
+    color: #1877f2;
+}
+
+.fa-tiktok{
+    color: black;
+}
+
+footer{
+    margin-top: 400px;
+}

@@ -1,0 +1,165 @@
+ul{
+    background-color: orangered;
+    color: white;
+    display: block;
+    height: 50px;
+}
+
+.head li{
+    list-style: none;
+    display: inline;
+    margin-right: 80px;
+    margin-left: 60px;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    color: rgb(226, 226, 243);
+}
+
+.title-line{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title-line span{
+    flex: 1;
+    height: 2px;
+    background-color: orangered;
+}
+
+div.content{
+    display: block;
+    width: 850px;
+    height: 480px;
+    border: 8px double orangered ;
+    margin-left: 30px;
+}
+
+.col h2{
+    width: 200px;
+    background-color: orangered;
+    color: rgb(226, 226, 243);
+    text-align: center;
+}
+
+.col{
+    display: block;
+    float: left;
+    margin: 3px;
+    width: 230px;
+    height: 220px;
+    margin-left: 40px;
+    background-color: rgb(238, 218, 211);
+    color: orangered;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px 20px;
+}
+
+.col h2, p{
+    margin-left: 10px;
+}
+
+button.post{
+    width: 90px;
+    height: 20px;
+    border-radius: 50px 50px;
+    border: none;
+    background-color: orangered;
+    color: rgb(226, 226, 243);
+}
+
+.post{
+    margin-top: -4px;
+    margin-right: 30px;
+    margin-left: 50px;
+    margin-top: -70px;
+}
+
+button.post a{
+    text-decoration: none;
+    color: rgb(226, 226, 243);
+}
+
+button.post:hover{
+    color: orangered;
+    background-color: orangered;
+    border: 4px solid rgb(238, 218, 211);
+    width: 100px;
+    height: 30px;
+}
+
+div.article{
+    width: 780px;
+    height:200px;
+    background-color: rgb(238, 218, 211);
+    color: orangered;
+    margin: 6px;
+    margin-left: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px 20px;
+}
+
+div .side-bar-right{
+    width: 40%;
+    display: inline;
+    float: right;
+    background-color: orangered;
+    height: 170px;
+    margin: 16px;
+}
+
+.side-bar-right{
+    margin-right: 20px;
+    margin-top: -510px;
+    float: right;
+
+}
+div.about{
+    clear: both;
+    display: table;
+    content: "";
+    display: block;
+    color: rgb(226, 226, 243) ;
+    background-color: orangered;
+    width: 400px;
+    height: 115px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+div.about img{
+    float: left;
+    margin-top: -50px;
+    border-radius: 75px 75px;
+}
+
+div.about p{
+    font-size: 20px;
+    margin: 16px;
+    margin-left: 16px;
+}
+
+i{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.fa-facebook{
+    color: #1877f2;
+}
+
+.fa-tiktok{
+    color: black;
+}
+
+footer{
+    margin-top: -100px;
+}
+
+
+
+
